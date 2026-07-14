@@ -1,0 +1,12 @@
+# personal biometric data — never commit
+Photo/
+faces/
+face_trained.yml
+features.npy
+labels.npy
+Video/
+
+# env
+venv/
+__pycache__/
+*.pyc
