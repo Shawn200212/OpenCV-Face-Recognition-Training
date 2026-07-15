@@ -10,6 +10,11 @@ The code is organized as **two modules**:
 
 ## Module 1 · Vision display effects (16 progressive scripts)
 
+![Vision effects](docs/vision_effects_grid.jpg)
+
+*Six of the operators covered, run on one training photo: grayscale conversion, Gaussian blur,
+Canny edge detection, binary thresholding and the Laplacian gradient.*
+
 | File | Topic |
 | --- | --- |
 | `ReadImages.py` / `ReadVideos.py` | Reading images & video streams |
@@ -23,6 +28,15 @@ The code is organized as **two modules**:
 | `basic.py` / `test.py` | Basics & scratch tests |
 
 ## Module 2 · Face recognition training (`face_recognition.py` and friends)
+
+![Haar detection](docs/haar_detection_demo.jpg)
+
+*Step 1 of the pipeline: the Haar cascade locates the face and crops the ROI that gets fed to
+the LBPH recognizer.*
+
+### Training set
+
+![Training set](docs/train_set_sample.jpg)
 
 ```
 Photo/Train/<person>/*.jpg          five celebrity folders, photos crawled from the web
