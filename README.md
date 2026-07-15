@@ -67,3 +67,8 @@ pip install opencv-contrib-python numpy
 python Faces_train.py       # after preparing Photo/Train/<person>/
 python face_recognition.py
 ```
+
+---
+
+🎨 **Portfolio — [ruixiaozhang.com](https://ruixiaozhang.com)** · game design, realtime animation, embodied AI and urban research
+🎬 **YouTube — [project videos](https://www.youtube.com/channel/UCyr-ubod7eNa6XhET25vdmw)**
