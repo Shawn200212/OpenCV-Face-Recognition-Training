@@ -1,5 +1,7 @@
 # OpenCV Learning Exercises — Vision Effects & Face Recognition
 
+**English** | [中文](README.zh-CN.md)
+
 > **What this is:** my personal **learning exercises** for OpenCV's vision module and face-recognition
 > module — a study repository, **not a production project**. I'm keeping it public as a record of how
 > these fundamentals feed into my later work (YOLO pedestrian detection for the
