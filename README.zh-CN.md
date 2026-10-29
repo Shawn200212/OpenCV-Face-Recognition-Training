@@ -1,6 +1,10 @@
-# OpenCV 学习练习——视觉效果与人脸识别
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-[English](README.md) | **中文**
+<a id="opencv-learning-exercises--vision-effects--face-recognition--opencv-学习练习视觉效果与人脸识别"></a>
+<a id="opencv-learning-exercises--vision-effects--face-recognition"></a>
+<a id="opencv-学习练习视觉效果与人脸识别"></a>
+
+# OpenCV 学习练习——视觉效果与人脸识别
 
 > **项目定位：**这是我对 OpenCV 视觉模块和人脸识别模块的个人学习练习，不是生产项目。
 > 公开保留它，是为了记录这些基础如何延伸到后续项目，例如
@@ -9,9 +13,11 @@
 
 代码分为两个模块。
 
-## 模块 1 · 视觉显示效果（16 个渐进脚本）
+<a id="module-1--vision-display-effects-16-progressive-scripts--模块-1--视觉显示效果16-个渐进脚本"></a>
+<a id="module-1--vision-display-effects-16-progressive-scripts"></a>
+<a id="模块-1--视觉显示效果16-个渐进脚本"></a>
 
-![视觉效果](docs/vision_effects_grid.jpg)
+## 模块 1 · 视觉显示效果（16 个渐进脚本）
 
 *同一训练照片上的六种处理：灰度转换、高斯模糊、Canny 边缘检测、二值阈值与
 Laplacian 梯度等。*
@@ -28,9 +34,13 @@ Laplacian 梯度等。*
 | `histogram.py` / `thresh.py` / `gradients.py` | 直方图、阈值与边缘梯度 |
 | `basic.py` / `test.py` | 基础练习与临时测试 |
 
-## 模块 2 · 人脸识别训练
+![视觉效果](docs/vision_effects_grid.jpg)
 
-![Haar 检测](docs/haar_detection_demo.jpg)
+<a id="module-2--face-recognition-training-face_recognitionpy-and-friends--模块-2--人脸识别训练"></a>
+<a id="module-2--face-recognition-training-face_recognitionpy-and-friends"></a>
+<a id="模块-2--人脸识别训练"></a>
+
+## 模块 2 · 人脸识别训练
 
 *流水线第一步：Haar 级联定位人脸并裁剪 ROI，再送入 LBPH 识别器。*
 
@@ -57,6 +67,12 @@ Photo/Train/<person>/*.jpg          五位名人的文件夹，照片来自网�
 **关于训练数据：**`Photo/Train/` 使用从网络获取的五位名人照片，只作为本编程练习的分析来源。
 仓库不分发照片集和训练制品（`face_trained.yml`、`features.npy`、`labels.npy`）。
 如需复现，请把 `Faces_train.py` 指向自己的 `Photo/Train/<person>/` 文件夹。
+
+![Haar 检测](docs/haar_detection_demo.jpg)
+
+<a id="run--运行"></a>
+<a id="run"></a>
+<a id="运行"></a>
 
 ## 运行
 
